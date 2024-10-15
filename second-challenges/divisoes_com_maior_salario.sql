@@ -1,3 +1,5 @@
+--link: https://judge.beecrowd.com/en/problems/view/2992
+
 with salario_empregado as (
     with descontos as (select ed.matr, sum(d.valor) as desconto
                        from desconto d

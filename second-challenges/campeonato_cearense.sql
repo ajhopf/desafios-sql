@@ -1,3 +1,5 @@
+--link: https://judge.beecrowd.com/en/problems/view/2988
+
 WITH team_results AS (
     SELECT
         team_1 AS team_id,
